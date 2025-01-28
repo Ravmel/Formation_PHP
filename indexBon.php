@@ -24,9 +24,17 @@ $cmn1 = $tab["user1"]["details"]["localisation"]["CMN"][0];
 $cmn2 = $tab["user1"]["details"]["localisation"]["CMN"][1];
 
 // Affichage du message de bienvenue
-echo "Bienvenue Monsieur " . $nom . " " . $prenom . ", vous êtes bien arrivé en " . $pays . ". ";
-echo "Voulez-vous résider dans la ville de " . $ville1 . " ou de " . $ville2 . "? ";
-echo "Si vous choisissez " . $ville1 . ", n'oubliez pas de préciser la commune " . $cmn1 . " ou " . $cmn2 . ". ";
+echo "\n";
+echo "Bienvenue Monsieur " . $nom . " " . $prenom."."."\n";
+echo "\n";
+echo "Nous sommes ravis de vous accueillir en " . $pays . ". "."\n";
+echo "\n";
+echo "Voulez-vous résider dans la ville d'" . $ville1 . " ou d'" . $ville2 . "? "."\n";
+echo "\n";
+echo "Si vous choisissez " . $ville1 . ", n'oubliez pas de préciser la commune " . $cmn1 . " ou " . $cmn2 . "."."\n";
+echo "\n";
 echo "Merci et bon séjour en " . $pays . ".";
+echo "\n";
+echo " ";
 
 ?>
